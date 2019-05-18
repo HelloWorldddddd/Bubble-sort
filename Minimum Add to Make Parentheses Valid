@@ -9,9 +9,7 @@ public:
 		{
 			if ((s[j]=='(')&& ( S[i]==')')) { s[j] = 0; j--; }
 			else { s[++j] = S[i]; }
-			/*for (int k = 1; k < 10; k++)
-				cout << s[k];
-			cout << endl;*/
+			
 		}//入栈,匹配则出栈
 
 		if (s[j] == 0)j--;
