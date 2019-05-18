@@ -1,3 +1,4 @@
+//使括号有效的最少添加
 class Solution {
 public:
 	int minAddToMakeValid(string S) {
